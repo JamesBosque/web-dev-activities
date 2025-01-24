@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        //Act1 function
+        //function is a bloock of codes
+        const num1 = 10;
+        const num2 = 20;
+        
+        function getSum () {
+            const sum = num1 + num2;
+            console.log('The sum is:', sum)
+        }
+
+      
+
+        function getDiff () {
+            const diff = num1 - num2;
+            console.log('The difference:', diff)
+        }
+
+        //function parameters 
+        function getProduct(num3, num4) {
+            const product = num3 * num4;
+            console.log("The product is:", product);
+        }
+
+        function getAverage(sub1, sub2, sub3) {
+            const sum = sub1 + sub2 + sub3;
+            const average = sum / 3;
+            console.log("The average is:", average);
+        }
+
+        function getQuotient(num6, num7) {
+            const quotient = num6 / num7;
+
+            return quotient;
+        }
+        function gradeSum(grade1, grade2, grade3) {
+            const sum = grade1 + grade2 + grade3;
+            return sum;
+        }
+        function gradeAverage(grade1, grade2, grade3) {
+            const sum = gradeSum(grade1, grade2, grade3);
+            const average = sum / 3;
+            return average;
+        }
+
+        //Arrow Function
+        const sum = (grade1, grade2, grade3) => {
+            const ans = grade1 + grade2 + grade3;
+            return ans;
+        }
+
+        getSum();
+        getDiff();
+        getProduct(5, 20);
+        getProduct(10, 50);
+        getAverage(90, 85, 75);
+        console.log("The qoutient is:", getQuotient(90, 30));
+
+        const qoutient = getQuotient(90, 30);
+        console.log("The qoutient is:", qoutient);
+        console.log("The average is", gradeAverage(90, 91, 92));
+        console.log("The average is", gradeSum(90, 91, 92));
+        console.log("The sum is:", sum(99, 98, 100));
+        
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
