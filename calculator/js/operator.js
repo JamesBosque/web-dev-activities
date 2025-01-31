@@ -5,7 +5,7 @@ function plus() {
 
     if (display2 !== "0") {
         let answer;
-        if (operator == "+") {
+        if (operator == "+") { 
             answer = Number(display2) + Number(display);
         }
         document.getElementById('display2').value = answer;

@@ -1,0 +1,116 @@
+@font-face {
+    font-family: myfont;
+    src: url(wwDigital.ttf);
+}
+
+.screen {
+    font-family: myfont;
+    width: 78vh;
+    height: 54vh;
+    font-size: 2.3em;
+    overflow: auto;
+    border: 15px solid black;
+    border-radius: 5px;
+    background: #c5e2d0;
+    outline: 3px solid black;
+    text-align: left;
+
+}
+
+.bmo {
+    width: 250px;
+    height: 250px; 
+}
+
+input[type = text] {
+    font-family: myfont;
+    width: 94.1%;
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 2.3em;
+    color: #c5e2d0;
+    border: 8px solid #00261b;
+    border-radius: 5px;
+    background: #043c33;
+    outline: 3px solid black;
+    text-align: left;
+}
+
+form {
+    display: inline-block;
+    background: #12aca4;
+    width: 40%;
+    height: 92vh;
+    border: 5px solid black;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    outline: 20px solid #3e8e99;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #CCCCCC; 
+    margin: 0;
+    padding: 20px;
+}
+
+.bsum {
+    width: 18vh;
+    height: 108px;
+    margin: 5px;
+    font-size: 1em;
+    color: black;
+    font-weight: bold;
+    border: 12px solid #dbb920;
+    border-radius: 4%;
+    background: #f7d013;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    outline: 3px solid black;
+}
+
+.bfac {
+    width: 18vh;
+    height: 108px;
+    margin: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    border: 12px solid #454caf;
+    border-radius: 4%;
+    background: #5795f3;
+    color: black;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    outline: 3px solid black;
+}
+.bodd {
+    width: 18vh;
+    height: 108px;
+    margin: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    border: 12px solid #04914c;
+    border-radius: 4%;
+    background: #4dba4d;
+    color: black;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    outline: 3px solid black;
+}
+
+.beven {
+    width: 18vh;
+    height: 108px;
+    margin: 5px;
+    font-size: 1em;
+    color: black;
+    font-weight: bold;
+    border: 12px solid #d60c48;
+    border-radius: 4%;
+    background: #ff2b6d;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    outline: 3px solid black;
+}
+

@@ -1,7 +1,7 @@
 function zero () {
     const num = document.getElementById('display').value;
 
-    if(num != 0) {
+    if(num != 0) { 
         const newnum = num + '0';
         document.getElementById('display').value = newnum;    
     }

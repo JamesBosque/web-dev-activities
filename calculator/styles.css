@@ -10,7 +10,7 @@ h2 {
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #CCCCCC;
+    background-color: #CCCCCC; 
     margin: 0;
     padding: 20px;
 }
@@ -18,7 +18,7 @@ body {
 form {
     display: inline-block;
     background: #3E3E3E;
-    width: 50%;
+    width: 47%;
     border: 20px solid #212121;
     border-radius: 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -36,6 +36,7 @@ input[type = text] {
     border-radius: 5px;
     background: #2fcc85;
     outline: 3px solid black;
+    text-align: left;
 }
 
 input[id="operator"] {
