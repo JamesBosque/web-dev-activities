@@ -36,6 +36,20 @@ input[type = text] {
     text-align: left;
 }
 
+input:hover[type = text] {
+    font-family: myfont;
+    width: 94.1%;
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 2.3em;
+    color: #00261b;
+    border: 8px solid #3c9b8b;
+    border-radius: 5px;
+    background: #4dc9b4;
+    outline: 3px solid black;
+    text-align: left;
+}
+
 form {
     display: inline-block;
     background: #12aca4;
@@ -70,6 +84,21 @@ body {
     outline: 3px solid black;
 }
 
+.bsum:hover {
+    width: 18vh;
+    height: 108px;
+    margin: 5px;
+    font-size: 1em;
+    color: black;
+    font-weight: bold;
+    border: 12px solid #a78e1f;
+    border-radius: 4%;
+    background: #dbb920;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    outline: 3px solid black;
+}
+
 .bfac {
     width: 18vh;
     height: 108px;
@@ -84,6 +113,22 @@ body {
     transition: background 0.3s ease;
     outline: 3px solid black;
 }
+
+.bfac:hover {
+    width: 18vh;
+    height: 108px;
+    margin: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    border: 12px solid #373c8b;
+    border-radius: 4%;
+    background: #454caf;
+    color: black;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    outline: 3px solid black;
+}
+
 .bodd {
     width: 18vh;
     height: 108px;
@@ -93,6 +138,21 @@ body {
     border: 12px solid #04914c;
     border-radius: 4%;
     background: #4dba4d;
+    color: black;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    outline: 3px solid black;
+}
+
+.bodd:hover {
+    width: 18vh;
+    height: 108px;
+    margin: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    border: 12px solid #047a41;
+    border-radius: 4%;
+    background: #04914c;
     color: black;
     cursor: pointer;
     transition: background 0.3s ease;
@@ -113,4 +173,20 @@ body {
     transition: background 0.3s ease;
     outline: 3px solid black;
 }
+
+.beven:hover {
+    width: 18vh;
+    height: 108px;
+    margin: 5px;
+    font-size: 1em;
+    color: black;
+    font-weight: bold;
+    border: 12px solid #b10a3c;
+    border-radius: 4%;
+    background: #d60c48;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    outline: 3px solid black;
+}
+
 
