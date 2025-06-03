@@ -1,0 +1,187 @@
+/* General body styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('./image/computer.jpg'); /* Kuromi image */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Keeps the background fixed while scrolling */
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Main content layout */
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* Header style */
+.header {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Dark background for navbar */
+  padding: 20px 0;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+/* Center the navbar items */
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-links {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+.nav-links li {
+  margin: 0 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  color: #f0b0d1; /* Light pink for hover and active links */
+}
+
+/* Main content section styles */
+.main-content {
+  margin-top: 80px; /* To offset the fixed header */
+  padding: 20px;
+  width: 100%;
+  color: white;
+  text-align: center;
+  height: 100%;
+}
+
+/* Profile section styles */
+.profile-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+/* Section styles */
+h1 {
+  font-size: 36px;
+  text-align: center;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 28px;
+  text-align: center;
+  color: #f0b0d1;
+}
+
+h3 {
+  font-size: 20px;
+  color: #f0b0d1;
+}
+
+/* About Section with transparent box */
+.about-section {
+  background: rgba(0, 0, 0, 0.6); /* Semi-transparent dark background */
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 80%; /* Limit the width */
+  margin: 0 auto;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.about-section h2 {
+  font-size: 28px;
+  color: #f0b0d1; /* Pink color */
+}
+
+.about-section p {
+  font-size: 18px;
+  color: white; /* White text color */
+  line-height: 1.6;
+}
+
+/* Activities Section with transparent box */
+.activities-section {
+  background: rgba(0, 0, 0, 0.6); /* Semi-transparent dark background */
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 80%; /* Limit the width */
+  margin: 0 auto;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.activities-section h2 {
+  font-size: 28px;
+  color: #f0b0d1;
+}
+
+.activities-list {
+  margin-top: 20px;
+}
+
+.activities-list li {
+  margin: 10px 0;
+}
+
+.project-link {
+  color: #f0b0d1;
+  text-decoration: none;
+}
+
+.project-link:hover {
+  color: #fff;
+}
+
+/* Social Section with transparent box */
+.social-section {
+  background: rgba(0, 0, 0, 0.6); /* Semi-transparent dark background */
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 80%; /* Limit the width */
+  margin: 0 auto;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.social-section h2 {
+  font-size: 28px;
+  color: #f0b0d1;
+}
+
+.social-links {
+  margin-top: 20px;
+}
+
+.social-links a {
+  color: #f0b0d1;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.social-links a:hover {
+  color: #fff;
+}

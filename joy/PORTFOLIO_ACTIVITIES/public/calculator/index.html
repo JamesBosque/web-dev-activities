@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./js/numbers.js"></script>
+    <script src="./js/operations.js"></script>
+</head>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 96vh;
+    background-color: #1aefe4;
+  }
+  
+  form {
+    background-color: #8be9ec;
+    padding: 20px 30px;
+    border-radius: 40px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 500px;
+  
+    
+  }
+  h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333333;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: right;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+  }
+  
+  button {
+    width: 110px;
+    height: 60px;
+    margin: 5px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #b300b3;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button:active {
+    background-color: #ec64b3;
+    transform: scale(0.95);
+  }
+  
+  div {
+    display: flex;
+    justify-content: center;
+  }
+  
+  button[type="button"]:nth-last-child(2),
+  button[type="button"]:last-child {
+    background-color: #28a745;
+  }
+  
+  button[type="button"]:nth-last-child(2):hover,
+  button[type="button"]:last-child:hover {
+    background-color: #218838;
+  
+  }
+  #display2 {
+    display: none;
+  }
+  
+</style>
+<form name="calculator">
+    <h2>Simple  Calculator</h2>
+    <form name="calculator">
+        <input type="text" id="display" placeholder="0" >
+        <input type="text" id="display2" readonly>
+        <input type="text" id="operations" placeholder>
+        <br><br>
+        <button type="button" onclick="seven()">7</button>
+        <button type="button" onclick="eight()">8</button>
+        <button type="button" onclick="nine()">9</button>
+        <button type="button" onclick="plus()">+</button>
+        <br><br>
+        <button type="button" onclick="four()">4</button>
+        <button type="button" onclick="five()">5</button>
+        <button type="button" onclick="six()">6</button>
+        <button type="button" onclick="minus()">-</button>
+        <br><br>
+        <button type="button" onclick="one()">1</button>
+        <button type="button" onclick="two()">2</button>
+        <button type="button" onclick="three()">3</button>
+        <button type="button" onclick="times()">*</button>
+        <br><br>
+        <button type="button" onclick="zero()">0</button>
+        <button type="button" onclick="dot()">c</button>
+        <button type="button" onclick="equals()">=</button>
+        <button type="button" onclick="divide()">/</button>
+        <br><br>
+    </form>
+    
+</body>
+</html>

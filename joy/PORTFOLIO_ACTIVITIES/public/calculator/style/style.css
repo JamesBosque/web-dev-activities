@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1a3aef;
+}
+
+form {
+  background-color: #ec8bc4;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 300px;
+
+  
+}
+h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333333;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: right;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+}
+
+button {
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0056b3;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:active {
+  background-color: #ec64b3;
+  transform: scale(0.95);
+}
+
+div {
+  display: flex;
+  justify-content: center;
+}
+
+button[type="button"]:nth-last-child(2),
+button[type="button"]:last-child {
+  background-color: #28a745;
+}
+
+button[type="button"]:nth-last-child(2):hover,
+button[type="button"]:last-child:hover {
+  background-color: #218838;
+
+}
+#display2 {
+  display: 60px;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <script src="./js/loop.js"></script>
+    <script src="./js/math.js"></script>
+
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(135deg, #6e7e8d, #9aafbb);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: #ffffff;
+            padding: 35px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            width: 360px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #4e5b6e;
+            font-size: 26px;
+            font-weight: 700;
+            margin-bottom: 25px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        #number {
+            width: 100%;
+            padding: 12px;
+            font-size: 16px;
+            border: 1px solid #c1c9d6;
+            border-radius: 8px;
+            margin-bottom: 18px;
+            outline: none;
+            box-sizing: border-box;
+            transition: all 0.3s ease;
+        }
+
+        #number:focus {
+            border-color: #4e5b6e;
+            box-shadow: 0 0 8px rgba(78, 91, 110, 0.3);
+        }
+
+        button {
+            background-color: #4e5b6e;
+            color: #fff;
+            border: none;
+            padding: 12px;
+            width: 100%;
+            font-size: 16px;
+            margin: 8px 0;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #3a4757;
+            transform: translateY(-2px);
+        }
+
+        #display {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #f0f5f9;
+            border-radius: 10px;
+            color: #2a3a47;
+            font-size: 18px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            word-wrap: break-word;
+            min-height: 50px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <input type="text" id="number" placeholder="Enter a number">
+        <button type="button" onclick="sum()">Show sum</button>
+        <button type="button" onclick="factorial()">Show factorial</button>
+        <button type="button" onclick="odd()">Show odd</button>
+        <button type="button" onclick="even()">Show even</button>
+        <p id="display"></p>
+    </div>
+</body>
+
+</html>
