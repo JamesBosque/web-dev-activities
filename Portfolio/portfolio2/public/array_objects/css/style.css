@@ -1,0 +1,38 @@
+.p1 {
+    width: 78vh;
+    height: 54vh;
+    font-size: 2.3em;
+    overflow: auto;
+    border: 15px solid black;
+    border-radius: 5px;
+    background: #c5e2d0;
+    outline: 3px solid black;
+    text-align: left;
+
+}
+
+.p2 {
+    width: 78vh;
+    height: 54vh;
+    font-size: 2.3em;
+    overflow: auto;
+    border: 15px solid black;
+    border-radius: 5px;
+    background: #c5e2d0;
+    outline: 3px solid black;
+    text-align: left;
+
+}
+
+.addemployee {
+    width: 78vh;
+    height: 54vh;
+    font-size: 2.3em;
+    overflow: auto;
+    border: 15px solid black;
+    border-radius: 5px;
+    background: #c5e2d0;
+    outline: 3px solid black;
+    text-align: left;
+
+}

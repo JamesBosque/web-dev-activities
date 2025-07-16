@@ -1,0 +1,141 @@
+@font-face {
+    font-family: myfont;
+    src: url(wwDigital.ttf);
+}
+
+h2 {
+    color: #DDDDDD;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #CCCCCC; 
+    margin: 0;
+    padding: 20px;
+}
+
+form {
+    display: inline-block;
+    background: #3E3E3E;
+    width: 47%;
+    border: 20px solid #212121;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    outline: 3px solid black;
+
+}
+
+input[type = text] {
+    font-family: myfont;
+    width: 60%;
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 4.3em;
+    border: 8px solid #ccc;
+    border-radius: 5px;
+    background: #2fcc85;
+    outline: 3px solid black;
+    text-align: left;
+}
+
+input[id="operator"] {
+    font-family: myfont;
+    width: 10%;
+    font-size: 4.3em;
+    text-align: center;
+    border: 8px solid #ccc;
+    border-radius: 5px;
+    background: #f33030;
+}
+
+button {
+    width: 115px;
+    height: 115px;
+    margin: 5px;
+    font-size: 2.5em;
+    font-weight: bold;
+    border: 8px solid #465866;
+    border-radius: 10%;
+    background: #A2A7BA;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    outline: 3px solid black;
+}
+
+.operator {
+    width: 115px;
+    height: 115px;
+    margin: 5px;
+    font-size: 2.5em;
+    font-weight: bold;
+    border: 8px solid #208538;
+    border-radius: 10%;
+    background: #28a745;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    outline: 3px solid black;
+}
+
+.operator:hover {
+    width: 115px;
+    height: 115px;
+    margin: 5px;
+    font-size: 2.5em;
+    font-weight: bold;
+    border: 8px solid #2d3945;
+    border-radius: 10%;
+    background: #215c2e;
+    color: #dddddd;
+}
+
+
+
+button:hover {
+    width: 115px;
+    height: 115px;
+    margin: 5px;
+    font-size: 2.5em;
+    font-weight: bold;
+    border: 8px solid #2d3945;
+    border-radius: 10%;
+    background: #465866;
+    color: #dddddd;
+}
+
+.operator:hover {
+    width: 115px;
+    height: 115px;
+    margin: 5px;
+    font-size: 2.5em;
+    font-weight: bold;
+    border: 8px solid #2d3945;
+    border-radius: 10%;
+    background: #259940;
+    color: #dddddd;
+}
+.eq {
+    border: 8px solid #995e7f;
+}
+button:active {
+    background: #465866;
+    transform: scale(0.95);
+}
+
+button[onclick="equals()"] {
+    background: #E68BBE;
+}
+
+button[onclick="equals()"]:hover {
+    background: #E68BBE;
+}
+
+button[onclick="equals()"]:active {
+    background: #1e7e34;
+}
+
+#display2 {
+    display: none;
+}

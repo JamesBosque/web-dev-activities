@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        let names = ["andrea", "cielo", "bernalyn", "tomi"];
+        let employees = [
+            {
+                "emp_id": "123",
+                "name": "Elon Musk",
+                "position": "CEO"
+
+            },
+            {
+                "emp_id": "456",
+                "name": "Bill Gates",
+                "position": "Supervisor"
+
+            },
+        ]
+    </script>
+
+    <script src="./js/array.js"></script>
+    <script src="./js/object.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <form class="screen1">
+        <div class="p1">
+            <input type="text" id="name">
+            <button type="button" onclick="addName()">Add</button>
+            <button type="button" onclick="showALL()">Show All</button>
+        </div>
+        <p id="list"></p>
+
+        <div>
+    </form>
+    <div class="p2">
+        <h2>EMPLOYEE LIST</h2>
+        <button type="button" onclick="showEmployees()">Show Employeess</button>
+        <table id="employee">
+            <thead>
+                <tr>
+                    <td>EMPLOOYEE ID</td>
+                    <td>NAME</td>
+                    <td>POSITION</td>
+                </tr>
+            <tbody>
+                <td>123</td>
+                <td>Elon Musk</td>
+                <td>CEO</td>
+            </tbody>
+            </thead>
+        </table>
+    </div>
+    <h2>ADD</h2>
+    <div class="addemployee">
+        <p>ID</p>
+        <input type="text" id="addid">
+        <p>Name</p>
+        <input type="text" id="addname">
+        <p>Position</p>
+        <input type="text" id="addpos">
+        <button type="button" onclick="addemp()">ADD</button>
+    </div>
+    </div>
+</body>
+
+</html>
